@@ -2,7 +2,7 @@ var Tour = React.createClass({
   render: function() {
     return (
       <div className="tour">
-        <StageWinnerList />
+        <StageWinnerList data={this.props.data} />
         <StageDetail />
       </div>
     );

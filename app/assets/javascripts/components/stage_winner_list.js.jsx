@@ -1,9 +1,13 @@
 var StageWinnerList = React.createClass({
   render: function() {
+    var winnerList = this.props.data.map(function (winner) {
+      return (
+        <StageWinner stage={winner.stage} name={winner.name} avatar_url={winner.avatar_url} />
+      );
+    });
     return (
       <div className="stageWinnerList">
-        <StageWinner stage="1" name="Rohan DENNIS" avatar_url="http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/63.jpg" />
-        <StageWinner stage="2" name="André GREIPEL" avatar_url="http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/75.jpg" />
+        {winnerList}
       </div>
     )
   }
