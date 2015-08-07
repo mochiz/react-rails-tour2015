@@ -1,6 +1,6 @@
 var Tour = React.createClass({
   getInitialState: function() {
-    return { data: [] }
+    return { data: [], detail: {} }
   },
   componentDidMount: function() {
     $.ajax({
@@ -8,17 +8,18 @@ var Tour = React.createClass({
       dataType: 'json',
       cache: false,
       success: function(data) {
-        this.setState({data: data});
+        this.setState({data: data, detail: data[0]});
       }.bind(this),
       error: function(xhr, status, err) {
         console.error(this.props.url, status, err.toString());
       }.bind(this)
     });
-  },  render: function() {
+  },
+  render: function() {
     return (
       <div className="tour">
         <StageWinnerList data={this.state.data} />
-        <StageDetail />
+        <StageDetail detail={this.state.detail} />
       </div>
     );
   }

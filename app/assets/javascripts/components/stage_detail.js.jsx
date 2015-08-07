@@ -2,7 +2,7 @@ var StageDetail = React.createClass({
   render: function() {
     return (
       <div className="stageDetail">
-        Hello, I am a StageDetail.
+        <img src={this.props.detail.photo_url} />
       </div>
     )
   }

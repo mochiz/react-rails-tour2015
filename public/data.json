@@ -1,6 +1,6 @@
 [
-  {"stage":1,"name":"Rohan DENNIS","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/63.jpg"},
- {"stage":2,"name":"André GREIPEL","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/75.jpg"},
- {"stage":3,"name":"Joachim RODRIGUEZ OLIVER","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/91.jpg"},
- {"stage":4,"name":"Tony MARTIN","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/114.jpg"}
+  {"stage":1,"name":"Rohan DENNIS","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/63.jpg","photo_url":"http://www.letour.fr/PHOTOS/TDF/2015/100/header/DIR_IMG.jpg"},
+ {"stage":2,"name":"André GREIPEL","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/75.jpg","photo_url":"http://www.letour.fr/PHOTOS/TDF/2015/200/header/DIR_IMG.jpg"},
+ {"stage":3,"name":"Joachim RODRIGUEZ OLIVER","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/91.jpg","photo_url":"http://www.letour.fr/PHOTOS/TDF/2015/300/header/DIR_IMG.jpg"},
+ {"stage":4,"name":"Tony MARTIN","avatar_url":"http://www.letour.fr/PHOTOS/TDF/2015/RIDERS/114.jpg","photo_url":"http://www.letour.fr/PHOTOS/TDF/2015/400/header/DIR_IMG.jpg"}
 ]
