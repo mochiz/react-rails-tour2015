@@ -15,10 +15,13 @@ var Tour = React.createClass({
       }.bind(this)
     });
   },
+  selectWinner: function(winner) {
+    this.setState({detail: winner});
+  },
   render: function() {
     return (
       <div className="tour">
-        <StageWinnerList data={this.state.data} />
+        <StageWinnerList data={this.state.data} selectWinner={this.selectWinner} />
         <StageDetail detail={this.state.detail} />
       </div>
     );

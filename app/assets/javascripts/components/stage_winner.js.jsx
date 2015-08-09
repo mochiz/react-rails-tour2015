@@ -1,7 +1,7 @@
 var StageWinner = React.createClass({
   render: function() {
     return (
-      <div className="StageWinner">
+      <div className="StageWinner" onClick={this.props.onClick}>
         <h2 className="stageWinnerName">
           STAGE {this.props.stage} WINNER: {this.props.name}
         </h2>
