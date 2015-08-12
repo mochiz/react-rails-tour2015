@@ -34,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'react-rails', '~> 1.0'
 gem 'rails_12factor', group: :production
+gem 'bootstrap-sass', '~> 3.3.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

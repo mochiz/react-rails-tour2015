@@ -8,7 +8,17 @@
 </head>
 <body>
 
-<%= yield %>
+<header>
+  <article>
+    <div class="logo">
+      <h1><%= link_to 'TOUR DE FRANCE 2015', root_path %></h1>
+    </div>
+  </article>
+</header>
+
+<section id='main'>
+  <%= yield %>
+</section>
 
 </body>
 </html>

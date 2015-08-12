@@ -22,7 +22,9 @@ var Tour = React.createClass({
     return (
       <div className="tour">
         <StageWinnerList data={this.state.data} selectWinner={this.selectWinner} />
-        <StageDetail detail={this.state.detail} />
+        <article id="race">
+          <StageDetail detail={this.state.detail} />
+        </article>
       </div>
     );
   }

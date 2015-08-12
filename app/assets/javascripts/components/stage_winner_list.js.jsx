@@ -10,9 +10,11 @@ var StageWinnerList = React.createClass({
       );
     });
     return (
-      <div className="stageWinnerList">
+      <article id="races">
+        <ul>
         {winnerList}
-      </div>
+        </ul>
+      </article>
     )
   }
 });
